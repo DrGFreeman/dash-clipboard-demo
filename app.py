@@ -9,7 +9,7 @@ from dash.exceptions import PreventUpdate
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 copy_alert = dbc.Alert(
-    "Text copied to clipboard", id="copy_alert", duration=4000, is_open=False
+    "Code copied to clipboard!", id="copy_alert", duration=4000, is_open=False
 )
 
 code = html.P(html.Code("Some text", id="text_to_copy"), className="lead")
