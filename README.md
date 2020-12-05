@@ -3,7 +3,7 @@ A simple application demonstrating how to use a client side callback to copy tex
 
 ![screenshot](./docs/screenshot.png)
 
-The **Generate New Code** button triggers a server-side callback to generate a random code using the `uuid.uuid4()` funcition.  The **Copy Code to Clipboard** button triggers a client-side callback that copies the code to the clipboard using a JavaScript function. It also triggers a server-side callback to display the *Text copied to clipboard* alert.
+The **Generate New Code** button triggers a server-side callback to generate a random code using the `uuid.uuid4()` function.  The **Copy Code to Clipboard** button triggers a client-side callback that copies the code to the clipboard using a JavaScript function. It also triggers a server-side callback to display the *Text copied to clipboard* alert.
 
 The client-side callback is defind as follows:
 
